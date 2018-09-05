@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Indeavor.Test.Abstractions\Indeavor.Test.Abstractions.csproj" />
+    <ProjectReference Include="..\Indeavor.Test.DAL\Indeavor.Test.DAL.csproj" />
+    <ProjectReference Include="..\Indeavor.Test.Model\Indeavor.Test.Model.csproj" />
+  </ItemGroup>
+
+</Project>
